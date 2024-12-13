@@ -1,0 +1,24 @@
+{
+    "name": "yukata-roommate/package",
+    "description": "PHP Package by Yukata Roommate",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yukata Roommate"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YukataRm\\": "src/app",
+            "YukataRm\\Interface\\": "src/interface",
+            "YukataRm\\Trait\\": "src/trait",
+            "YukataRm\\Enum\\": "src/enum"
+        }
+    },
+    "require": {
+        "php": ">=8.3.0",
+        "vlucas/phpdotenv": "^5.6",
+        "twilio/sdk": "^7.13"
+    }
+}
